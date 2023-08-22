@@ -81,7 +81,7 @@ const Contact = () => {
         >
           <form
             method="POST"
-            action="https://formsubmit.co/ahmedkhadar700@gmail.com"
+            action="https://formsubmit.co/efa4a83a5f9e0743ecdbd9f97d2ed856"
             onSubmit={sendEmail}
           >
             <input
