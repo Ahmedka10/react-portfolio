@@ -14,36 +14,48 @@ const Cards = [
     image: Project1,
     category: "U/UX",
     date: "13h",
+    view: "https://game-hub-sepia-zeta.vercel.app/",
+    git: "https://github.com/AhmedKa10/game-hub",
   },
   {
     name: "Portfolio",
     category: "Web Apps",
     image: Project2,
     date: "8h",
+    view: "",
+    git: "",
   },
   {
     name: "Som Solutions",
     category: "ReactJs",
     image: Project3,
     date: "19h",
+    view: "",
+    git: "",
   },
   {
     name: "Bloger",
     category: "NextJs",
     image: Project4,
     date: "2h",
+    view: "",
+    git: "",
   },
   {
     name: "Somaliland News",
     category: "Somali Rebuplic",
     image: Project5,
     date: "23h",
+    view: "",
+    git: "",
   },
   {
     name: "Muslim World News",
     category: "Web developer",
     image: Project6,
     date: "17h",
+    view: "",
+    git: "",
   },
 ];
 
@@ -105,7 +117,7 @@ const Projects = ({}: Props) => {
                     </button>
                     <a
                       className="class-icon"
-                      href="https://www.twitter.com/Ahmedkhadar100"
+                      href={card.view}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -113,7 +125,7 @@ const Projects = ({}: Props) => {
                     </a>
                     <a
                       className="class-icon"
-                      href="https://www.twitter.com/Ahmedkhadar100"
+                      href={card.git}
                       target="_blank"
                       rel="noreferrer"
                     >

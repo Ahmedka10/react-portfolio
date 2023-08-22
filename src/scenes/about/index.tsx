@@ -27,9 +27,15 @@ const index = ({}: Props) => {
             MY <span className=" text-secondary-500">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+          <p className="mt-2 mb-7 capitalize">
+            magacaygu waa ahmed kadar, waxa aan ahay web developer, web design,
+            sidoo kalena xirfad u leh digital marketing iyo data Analytics.
+            kusoo dhowoow degelkan oo dalbo serviceka ama hawshaa rabto in laguu
+            qabto. "{" "}
+            <span className="text-primary-300 font-bold uppercase">
+              well-don
+            </span>{" "}
+            "
           </p>
         </motion.div>
 
