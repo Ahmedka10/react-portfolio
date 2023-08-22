@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #010026;
+  @apply text-white;
+  /* @apply font-family: 'Poppins', sans-serif; */
+}
+
+@layer components {
+  .cards {
+    @apply md:w-[320px] md:h-[420px] text-white rounded-xl
+            shadow-xl bg-deep-blue-300 border border-deep-blue-100 overflow-hidden;
+  }
+  .badge {
+    @apply px-3 py-1 rounded-full text-sm bg-gray-400;
+  }
+  .badge1 {
+    @apply px-3 py-1 rounded-full text-sm bg-green-300 font-semibold text-red-500;
+  }
+  .project-title {
+    @apply font-semibold text-2xl overflow-ellipsis
+      overflow-hidden whitespace-nowrap;
+  }
+  .button-primary {
+    @apply bg-btn-primary hover:bg-btn-primary/50 transition duration-500 py-2.5 px-8 
+     rounded-md text-white font-medium tracking-wider;
+  }
+  .class-icon {
+    @apply flex-grow flex justify-center items-center
+          bg-gray-300/60 rounded-md hover:bg-gray-300/80 transition;
+  }
+}
